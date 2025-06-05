@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import React, { useState, useEffect, useRef } from 'react';
 import * as cocoSsd from '@tensorflow-models/coco-ssd';
 import '@tensorflow/tfjs'; // Registers the CPU backend.
