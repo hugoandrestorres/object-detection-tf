@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "20.x" // Or "18.x", ">=18.0.0", etc. Use a version that worked locally
+    "node": "20.x"
   },
   "browserslist": [
     "last 2 versions",
@@ -37,11 +37,6 @@
       "react": {
         "version": "detect"
       }
-    },
-    "rules": {
-      "@typescript-eslint/no-unused-vars": ["warn"],
-      "@typescript-eslint/no-explicit-any": ["off"],
-      "@typescript-eslint/explicit-module-boundary-types": ["off"]
     }
   },
   "prettier": {
