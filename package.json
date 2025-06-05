@@ -9,9 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "browserslist": [
     "last 2 versions",
     "not dead",
