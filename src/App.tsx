@@ -8,7 +8,7 @@ interface DetectedObject extends cocoSsd.DetectedObject {
   // You can extend this if cocoSsd.DetectedObject is missing something or for your own custom props
 }
 
-function App(): Jsx.Element {
+function App(): JSX.Element {
   const [model, setModel] = useState<cocoSsd.ObjectDetection | null>(null);
   const [imageSrc, setImageSrc] = useState<string | null>(null);
   const [detections, setDetections] = useState<DetectedObject[]>([]);
