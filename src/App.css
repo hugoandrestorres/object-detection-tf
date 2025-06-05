@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to top */
+  min-height: 100vh;
+  padding-top: 20px; /* Add some space at the top */
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 90%;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  color: #2c3e50;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.image-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  display: inline-block; /* To contain the image properly */
+  max-width: 100%;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 500px; /* Limit image height */
+  display: block; /* Remove extra space below image */
+  border-radius: 4px;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.results h2 {
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  background-color: #ecf0f1;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: #e74c3c;
+  background-color: #fdd;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e74c3c;
+}
+
+.status-message {
+  font-style: italic;
+  color: #7f8c8d;
+}
